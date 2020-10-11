@@ -3,7 +3,7 @@ import { Col } from 'react-bootstrap';
 
 const ServiceInfoCard = (props) => {
     return (
-        <Col md={4} className="pt-5 text-muted">
+        <Col md={4} className="pt-5 mb-5 text-muted">
             <div className="">
                 <div style={{height:'80px'}} className="text-center mb-4">
                     <img style={{height:'80px',width:'80px'}} src={props.info.image} alt="ima"/>

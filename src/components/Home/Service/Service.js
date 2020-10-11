@@ -25,7 +25,7 @@ const service =[
 const Service = () => {
     return (
         <div>
-            <Container className="mt-5 pt-4">
+            <Container className="mt-5 mb-5 pt-4">
                 <div className="text-center">
                     <h6 style={{color:'#1cc7c1'}}>OUR SERVICES</h6>
                     <h2 className="pt-2" style={{color:"#3a4256"}}>Services We Provide</h2>

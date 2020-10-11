@@ -1,0 +1,11 @@
+.appoinment-background-image{
+    background-image:
+    linear-gradient(to left ,rgba(58, 66, 86, 0.9), rgba(58, 66, 86, 0.9)),
+    url('../../images/appoinmentBackground.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .change-position{
+    height: 550px;
+    margin-top: -150px;
+  }
