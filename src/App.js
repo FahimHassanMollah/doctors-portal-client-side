@@ -7,7 +7,11 @@ import {
   Route,
   Link
 } from "react-router-dom";
+
+
 import Home from './components/Home/Home/Home';
+import Appoinment from './components/Appoinment/Appoinment/Appoinment';
+
 
 
 
@@ -16,9 +20,12 @@ function App() {
     <div className="">
       <Router>
         <Switch>
-        <Route path="/">
-            <Home></Home>
-          </Route>
+        <Route exact  path="/">
+           <Home></Home>
+        </Route>
+        <Route exact path="/appoinment">
+           <Appoinment></Appoinment>
+        </Route>
         </Switch>
       </Router>
     </div>

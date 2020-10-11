@@ -1,9 +1,9 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import './Appoinment.css';
+import './MakeAppoinment.css';
 import doctor from '../../images/doctor.png';
 import appoinmentBackground from '../../images/appoinmentBackground.png';
-const Appoinment = () => {
+const MakeAppoinment = () => {
     return (
         <div style={{marginTop:"150px"}} className="">
            
@@ -28,4 +28,4 @@ const Appoinment = () => {
     );
 };
 
-export default Appoinment;
+export default MakeAppoinment;

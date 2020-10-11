@@ -1,7 +1,9 @@
 import React from 'react';
-import Appoinment from '../Appoinment/Appoinment';
+import Footer from '../../Shared/Footer/Footer';
+
 import ExceptionalDentalCare from '../ExceptionalDentalCare/ExceptionalDentalCare';
 import Header from '../Header/Header';
+import MakeAppoinment from '../MakeAppoinment/MakeAppoinment';
 import Service from '../Service/Service';
 
 const Home = () => {
@@ -10,7 +12,8 @@ const Home = () => {
             <Header></Header>
             <Service></Service>
             <ExceptionalDentalCare></ExceptionalDentalCare>
-            <Appoinment></Appoinment>
+            <MakeAppoinment></MakeAppoinment>
+            <Footer></Footer>
         </div>
     );
 };
