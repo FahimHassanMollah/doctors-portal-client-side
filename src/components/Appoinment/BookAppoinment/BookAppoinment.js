@@ -50,12 +50,13 @@ const BookAppoinment = (props) => {
     return (
         <section>
             <Container>
-                <Row>
-                   <Col md={12}>
-                        <h2 style={{color:'#1cc7c1'}} className="text-center">Available Appointments on {props.bookingDate.toDateString()}</h2>
-                   </Col>
+                <h2 style={{ color: '#1cc7c1' }} className="text-center">Available Appointments on {props.bookingDate.toDateString()}</h2>
+                <Row className="d-flex justify-content-center">
+
+
+
                     {
-                        bookingData.map((data,index)=><BookingCard key={index} data={data}></BookingCard>)
+                        bookingData.map((data, index) => <BookingCard bookingDate={props.bookingDate.toDateString()} key={index} data={data}></BookingCard>)
                     }
                 </Row>
             </Container>
